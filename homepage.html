@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ABC BookStore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hleft">
+            <img class="picture" src="img\logoABCbook.png">
+        </div>
+        <div class="hright">
+            <i class="fa fa-user-circle-o fa-1x" aria-hidden="true "><a href="login.html" id="login">Login </a><a
+                    href="registration.html" target="_iframe">Registration</a></i>
+            <i class="fa fa-shopping-cart fa-1x" aria-hidden="true"><a href="#">Cart</a></i>
+        </div>
+    </header>
+    <nav>
+        <div class="form">
+            <form>
+                <table>
+                    <tr>
+                        <td><input type="text" name="findbook" title="findingbar" style="width: 300px;"
+                                placeholder="Enter the title of the book       " />
+                        </td>
+                        <td><input type="submit" value="Find books" height="100px"></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+        <div class="list">
+            <ul id="linklist">
+                <li><a href="homepage.html" id="lista">Home Page </a></li>
+                <li><a href="introduction.html" id="listb">Introductions </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article>
+        <div id="body">
+            <aside id="left">
+                <div class="booktitle">
+                    <p id="title">BOOKS BY SUBJECT</p>
+                    <ul id="list1">
+                        <li>
+                            <a href="#">Foreign Language</a>
+                        </li>
+                        <li>
+                            <a href="#">Information Technology</a>
+                        </li>
+                        <li>
+                            <a href="#">Law</a>
+                        </li>
+                        <li>
+                            <a href="#">Literature</a>
+                        </li>
+                        <li>
+                            <a href="#">Science And Technology</a>
+                        </li>
+                        <li>
+                            <a href="#">Agriculture</a>
+                        </li>
+                        <li>
+                            <a href="#">History And Geography</a>
+                        </li>
+                        <li>
+                            <a href="#">Economics</a>
+                        </li>
+                        <li>
+                            <a href="#">Listen to the song</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bookpublisher">
+                    <p id="publisher">BOOKS BY PUBLISHER</p>
+                    <ul id="list2">
+                        <li>
+                            <a href="#">Young Publisher</a>
+                        </li>
+                        <li>
+                            <a href="#">Statistic Publshing House</a>
+                        </li>
+                        <li>
+                            <a href="#">Bronze Needle</a>
+                        </li>
+                        <li>
+                            <a href="#">National University</a>
+                        </li>
+                        <li>
+                            <a href="#">Artistic And Culture</a>
+                        </li>
+                        <li>
+                            <a href="#">Culture</a>
+                        </li>
+                        <li>
+                            <a href="#">History Of Geography</a>
+                        </li>
+                        <li>
+                            <a href="#">Labor-Society</a>
+                        </li>
+                        <li>
+                            <a href="#">Science & Engineering</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <section id="section1">
+                <div>
+                    <p id="newbook">NEW BOOKS</p>
+                </div>
+                <div id="row">
+                    <div class="product-box">
+                        <p class="bookname"><a href=detailproduct.html id="title1">Giáo trình tin học cơ bản</a></p>
+                        <a href="detailproduct.html"><img src="img\book.jpg" width="150px" height="200px"
+                                title="sach tin hoc co ban"></a>
+                        <p><strong>Đơn Giá : </strong> <span style="color:red">126,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                    <div class="product-box">
+                        <p class="bookname"><a href=detailproduct.html id="title2">English For Tech</a></p>
+                        <a href="detailproduct.html"><img src="img\englishfortech.jpg" width="150px" height="200px"
+                                title="englishfortech"></a>
+                        <p> <strong>Đơn Giá : </strong><span style="color:red">206,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                    <div class="product-box">
+                        <p class="bookname"> <a href="detailproduct.html" id="title3">BARC Computer Science</a></p>
+                        <a href="detailproduct.html"><img src="img\barc.png" width="150px" height="200px"
+                                title="barccomputerscience"></a>
+                        <p> <strong>Đơn Giá : </strong><span style="color:red">260,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                </div>
+
+                <div id="row1">
+                    <div class="product-box">
+                        <p class="bookname"> <a href="detailproduct.html" id="title4">The Davinci Code</a></p>
+                        <a href="detailproduct.html"><img src="img/davinci.png" width="150px" height="200px"
+                                title="sach tin hoc co ban"></a>
+                        <p> <strong>Đơn Giá : </strong><span style="color:red">265,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                    <div class="product-box">
+                        <p class="bookname"> <a href="detailproduct.html" id="title5">Harry Potter</a></p>
+                        <a href="detailproduct.html"><img src="img\harrypotter.png" width="150px" height="200px"
+                                title="sach tin hoc co ban"></a>
+                        <p> <strong>Đơn Giá : </strong><span style="color:red">267,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                    <div class="product-box">
+                        <p class="bookname"> <a href="detailproduct.html" id="title6">Giáo trình tin học cơ bản</a></p>
+                        <a href="detailproduct.html"><img src="img\book.jpg" width="150px" height="200px"
+                                title="sach tin hoc co ban"></a>
+                        <p> <strong>Đơn Giá : </strong><span style="color:red">126,000 VNĐ</span></p>
+                        <input type="image" src="img\datmua.jpg" name="datmuabutton" alt="Datmua" width="150px"
+                            height="60px">
+                    </div>
+                </div>
+            </section>
+            <aside id="right">
+                <div class="right1">
+                    <p id="toptitle">BESTSELLER</p>
+                    <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="Stop()" onMouseOut="start()"
+                        id="marquee1">
+                        <p>
+                            <a href="#"> <img class="picture1" src="img\EnglishforTech.jpg">EnglishforTech</a>
+                        </p>
+                        <p>
+                            <a href="#"> <img class="picture1" src="img\VisualBasic.png">Visual Basic</a>
+                        </p>
+
+                        <a href="#"> <img class="picture1" src="img\harrypotter.png">Harry Potter</a>
+                        </p>
+                        <p>
+                            <a href="#"> <img class="picture1" src="img\BARC.png">BARC</a>
+                        </p>
+                    </marquee>
+                </div>
+                <div class="right2">
+                    <p id="middletitle">THE WEBSITE LINKS</p>
+                    <form id="form1">
+                        <select name="selec linking page" onchange="location=this.value;">
+                            <option value="select" selected="selected">----Select the linking page -----</option>
+                            <option value="https://lib.eiu.edu.vn/">EIU Library</option>
+                            <option value="https://eiu.edu.vn/-Eastern">EIU Website</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="right3">
+                    <p id="bottomtitle"> ACCESS STATISTICS</p>
+                    <p id="content1">Total Access: 500</p>
+                    <p id="content2">Online :3</p>
+                </div>
+
+            </aside>
+        </div>
+    </article>
+    </div>
+    <footer>
+        <p>©2016 - ABC BookStore. Alright Reserved</p>
+        <p>Website is developed to be used in hands-on exercise in Web programing</p>
+        <p>Email : abcbookstore@gmail.com</p>
+    </footer>
+</body>
+
+</html>
